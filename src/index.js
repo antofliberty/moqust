@@ -1,15 +1,7 @@
 import React from "react";
 import ReactDOM from 'react-dom';
 
-const el = (
-    <div>
-        <h1>Moqust</h1>
-        <ol>
-            <li>Помыть посуду</li>
-            <li>Помыть полы</li>
-        </ol>
-    </div>
-);
+import App from 'components/app';
 
-ReactDOM.render(el, document.getElementById('root'))
+ReactDOM.render(<App />, document.getElementById('root'))
 
